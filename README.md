@@ -59,7 +59,7 @@ Artefacts are built around the SHA of the commit that generated it.
 ## CloudFunction output
 The provided application has been deployed and curl run against it.
 ```
-curl https://europe-west2-bouncing-panda.cloudfunctions.net/sero-fetch-9
+curl https://europe-west2-bouncing-panda.cloudfunctions.net/sero-fetch
 {"status":"ok","data":[{"id":"clg1z32pf0000s601h2qv8g8h","from":"2023-01-01T09:30Z","to":"2023-01-01T10:00Z","forecast":82,"actual":78,"createdAt":"2023-04-04T08:02:39.603Z","updatedAt":"2023-04-04T08:02:39.603Z"}]}%
 ```
 
